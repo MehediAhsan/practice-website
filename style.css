@@ -23,11 +23,36 @@ body{
     background-image: linear-gradient(orange,tomato);
     padding: 12px 25px;
     border-radius: 50px;
+    box-shadow: 5px 5px 20px tomato;
 }
-.top-part img{
+.top-right img{
     width: 90%;
     margin-left: -40px;
 }
 h1{
     font-size: 60px;
+    /* line-height: 0.5; */
 }
+.mid-part{
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-left: 120px;
+}
+.mid-main{
+    background-image: url(./img/7.png);
+    background-repeat: no-repeat;
+}
+.mid-image img{
+    width: 80%;
+    margin-left: 20px;
+}
+.mid-right{
+    padding-left: 60px;
+    padding-top: 70px;
+    color: rgb(90, 88, 88);
+}
+.mid-part p{
+    margin-bottom: 70px;
+}
+
